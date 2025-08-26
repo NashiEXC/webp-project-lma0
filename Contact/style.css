@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #29414d;
+    font-family: 'Consolas', Courier, monospace;
+    color: white;
+}
+
+
+
+th{
+    font-size: 5rem;
+}
+
+table{
+   margin-right: auto;
+   margin-left: auto;
+}
+
+td{
+    padding: 25px;
+    font-size: 1.5rem;
+}
+
+.mailfield{
+    height: 40px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.namefield{
+    height: 40px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+textarea{
+    border-radius: 10px;
+}
+
+.reason{
+    height: 30px;
+    border-radius: 10px;
+}
+
+.Send{
+    border-radius: 15px;
+    height: 50px;
+    width: 100px;
+    font-family: 'Consolas', Courier, monospace;
+    font-size: large;
+    color: white;
+    background-color: #29414d;
+}
+
+.Buttons{
+    padding-left: 200px;
+    padding-right: auto;
+}
