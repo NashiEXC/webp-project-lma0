@@ -1,0 +1,76 @@
+table, th, td {
+    border: 0px;
+    border-collapse: collapse;
+    padding: 5px;
+    font-family: "Consolas", "Courier New", monospace;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 500px;
+}
+.coat {
+    padding-top: 100px;
+    align-items: center;
+    background-color: #29414d;
+}
+.cart {
+    background-color: white;
+
+}
+textarea {
+    overflow: hidden;
+    resize: none;
+    background-color: #29414d;
+    border-radius: 5px;
+    font-family: "Consolas", "Courier New", monospace;
+    width: 170px;
+    text-align: center;
+    border-color: black;
+    display: inline-block;
+    vertical-align: top;
+}
+.baba {
+    background-color: #3e6579;
+}
+select {
+    width: 170px;
+    background-color: #3e6579;
+    border-color: black;
+    font-family: "Consolas", "Courier New", monospace;
+    border-radius: 5px;
+}
+.GI {
+    max-width: 150px;
+    min-width: 40%;
+    box-shadow: 3px 3px 5px;
+
+}
+.idk {
+    border: 0px;
+    font-family: "Consolas", "Courier New", monospace;
+    color: white;
+}
+.footer{
+    background-color: #272b2d;
+}
+::-webkit-input-placeholder {
+    color: white;
+}
+#bb {
+    font-family: "Consolas", "Courier New", monospace;
+    width: 170px;
+    margin: auto;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.button {
+    background-color: #228B22;
+    color: black;
+}
+.button:hover {
+    background-color: white;
+    color: black;
+}
+.smth {
+    padding-left: 50px;
+}

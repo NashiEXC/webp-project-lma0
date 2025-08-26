@@ -1,0 +1,181 @@
+li {
+    font-weight: bolder;
+    font-size: xxx-large;
+    font-family: "Consolas", "Courier New", monospace;
+}
+#table {
+    color: black;
+    border: none;
+    border-color: black;   
+    min-width: 3vw;
+    min-height: 3vw;
+}
+.lib {
+    font-size: 20px ;
+    font-family: "Consolas", "Courier New", monospace;
+    margin: 2px;
+    cursor: pointer;
+ }
+.menu {
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color: #29414d;
+    color: white;
+    border-spacing: 5px;
+    position: relative;
+ }
+.table {
+    background-color: #29414d;
+    color: white;
+    font-family: "Consolas", "Courier New", monospace;   
+}
+.game {
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 100%;
+    Height: 100%;
+}
+.banner {
+    box-sizing: border-box;
+    justify-content: space-between;
+    height: 500px;
+    width: 500px;
+    position: relative;
+    bottom: 100px;
+
+}
+.table2 {
+    color: white;
+    font-family: "Consolas", "Courier New", monospace;
+    border-collapse: collapse;
+}
+.row {
+    display: flex;
+    overflow: hidden;
+}
+.column {
+    flex: auto;
+    flex-basis: 100%;
+    border-spacing: 25px;
+    padding: 10px;
+    background-color: #29414d;
+    font-family: "Consolas", "Courier New", monospace;
+    color: white;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+.tt {
+    background-color: #29414d;
+    font-family: "Consolas", "Courier New", monospace;
+    color: white;
+    font-size: xxx-large;
+    position: relative;
+    padding: 10px;
+    
+}
+body {
+    background-color: #29414d;
+    font-size: 100%;
+}
+.gcover {
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+textarea {
+    background-color: #29414d;
+    color:  white;
+    font-family: "Consolas", "Courier New", monospace;
+    padding: 10px;
+    width: 800px;
+    height: 400px;
+    overflow: visable;
+    resize: none;
+    scrollbar-color:  #29414d grey;
+    border-radius: 5px;
+    border-color: grey;
+}
+#openWindow {
+    font-family: "Consolas", "Courier New", monospace;
+    width: 280px;
+    height: 30px;
+    position: relative;
+    display: block;
+    margin: auto;
+    font-weight: 1000;
+    font-size: larger;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.button {
+    background-color: #228B22;
+    color: black;
+    font-family: "Consolas", "Courier New", monospace;
+    width: 280px;
+    height: 30px;
+    position: relative;
+    display: block;
+    margin: auto;
+    font-weight: 1000;
+    font-size: larger;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.button:hover {
+    background-color: white;
+    color: black;
+}
+#coat {
+    padding-top: 100px;
+}
+.gametext{
+    transition: 0.5s ease-in-out;
+}
+.gametext:hover{
+    color:#04688d;
+}
+#gt {
+    font-size:  4vw;
+}
+.ss {
+    padding-left: 30px;
+    padding-top: 50px;
+    vertical-align: top;
+}
+.sss {
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ssss {
+    max-height: 100px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sssss {
+    margin-left: auto;
+    margin-right: auto;
+}
+.ssssss {
+    display: block;
+    border-collapse: collapse;
+    padding: 5px;
+    height: 336px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ssh {
+    transition: 0.3s ease-in-out;
+}
+.ssh:hover {
+    cursor: pointer;
+    background-color: #1c2c35;
+}
