@@ -1,0 +1,336 @@
+<html>
+	<!DOCTYPE html>
+	<html lang = "en">
+		<head>
+			<meta charset = "UTF-8"/>
+			<meta
+				http-equiv = "X-UA-Compatible"
+				content = "IE = edge"
+			/>
+			<meta
+				name = "viewport"
+				content = "width = device-width, 
+					   initial-scale = 1.0"
+			/>
+				<link href = "style.css" rel = "stylesheet">
+				<link rel="stylesheet" href="footer.css">
+			<style>
+				.popup {
+					position: fixed;
+					z-index: 1;
+					left: 0;
+					top: 0;
+					width: 100%;
+					height: 100%;
+					overflow: auto;
+					background-color: rgba(
+						0,
+						0,
+						0,
+						0.4
+					);
+					display: none;
+				}
+				.popup-content {
+					background-color: #272b2d;
+					margin: 10% auto;
+					padding: 20px;
+					border: 1px solid #888888;
+					width: 30%;
+					font-weight: bolder;
+				}
+				.popup-content button {
+					display: block;
+					margin: 0 auto;
+				}
+				.show {
+					display: block;
+				}
+				.popup-content-news {
+					margin: 10% auto;
+					padding: 20px;
+					border: 1px solid #888888;
+					width: 30%;
+					font-weight: bolder;
+					background-color: grey;
+					height: 400px;	
+				}
+			</style>
+		</head>
+		<title>
+				Library
+		</title>
+		<link href = "style.css" rel = "stylesheet">
+		<link rel="icon" href="../images/Vapor.png">
+	</head>
+	<body>
+	    <header>
+			<nav class="navbar">
+				<img src="../images/Vapor.png" height="90" class="Logo">
+	
+				<ul class="NavMenu">
+					<li class="navItem">
+						<a href="../Landing/Landing.html" class="navLink">Home</a>
+					</li>
+					<li class="navItem">
+						<a href="../Store/Vapor store page.html" class="navLink">Store</a>
+					</li>
+					<li class="navItem">
+						<a href="../Library/Library.html" class="navLink">Library</a>
+					</li>
+					<li class="navItem">
+						<a href="../Account/account.html" class="navLink">Account</a>
+					</li>
+					<li class="navItem">
+						<a href="../Contact/contact.html" class="navLink">Contact Us</a>
+					</li>
+					<li class="navItem">
+						<a href="../About/About.html" class="navLink">About Us</a>
+					</li>
+				</ul>
+				<div class="NavSideBar">
+					<span class="Bar"></span>
+					<span class="Bar"></span>
+					<spHeader&SidebarCode/Header.jsan class="Bar"></span>
+				</div>
+			</nav>
+		</header>
+		<script src="scripts/Header.js"></script>
+<div class="container">
+		<br/>
+		<br/>
+		<table class = "newstable" border = "4" cellspacing = "10">
+			<caption style = "text-align: left; color: white;" class = "unifont">What's new?</caption>
+			<tr>
+				<td class = "gamenews" valign = "bottom">
+					<button id = "news1" class = "inbut" style = "height: 100%; width: 100%; margin-bottom: -40;">
+					</button>
+					<div id = "news1content" class = "popup">
+						<div style = "background-image: url(images/winniethepooh.jpg); background-repeat: no-repeat; background-size: cover ;"class = "popup-content-news">
+							<h3 class = "unifont">
+							</h3>
+							<p class = "unifont">
+filler text blah blah blah
+							<br/>
+							<br/>
+							<br/>
+							<br/>
+							<br/>
+							<br/>
+							<br/>
+								Click Outside To Exit
+							</p>
+						</div>
+					</div>
+
+					<p class = "newsdesc">
+						News 1
+					</p>
+				</td>
+				<td class = "gamenews" valign = "bottom">
+					<button id = "news2" class = "inbut" style = "height: 100%; width: 100%; margin-bottom: -40;">
+					</button>
+					<div id = "news2content" class = "popup">
+						<div style = "width: 550px; background-image: url(images/joe.jpg); background-repeat: no-repeat; background-size: cover ;"class = "popup-content-news">
+							<h3 class = "unifont">
+							<p class = "unifont">
+									blah blah blah filer text
+								
+							</p>
+						</div>
+					</div>
+					<p class = "newsdesc">
+						News 2
+					</p>
+				</td>
+				<td class = "gamenews" valign = "bottom">
+					<button id = "news3" class = "inbut" style = "height: 100%; width: 100%; margin-bottom: -40;">
+					</button>
+					<div id = "news3content" class = "popup">
+						<div style = "background-image: url(images/winniethepooh.jpg); background-repeat: no-repeat; background-size: cover ;"class = "popup-content-news">
+							<h3 class = "unifont">
+								
+							</h3>
+							<p class = "unifont">
+								filler text blah blah blah
+							<br/>
+							<br/>
+							<br/>
+							<br/>
+							<br/>
+							<br/>
+							<br/>
+								Click Outside To Exit
+							</p>
+						</div>
+					</div>
+					<p class = "newsdesc">
+						News 3
+					</p>
+				</td>
+			</tr>
+		</table>
+	</br>
+	<p class = "unifont">
+		Continue Playing
+	</p>
+	<table class = "gametable" border = "4" cellspacing = "0">
+		<td class = "bgimg">
+			<form method = "get" action = "games/trepang2/trepang2.html">
+				<input type = "submit" style = "height: 250; width: 900; color: white; background-color: transparent; border: none;" value = "" >
+			</form>
+			<button class = "unifont" id = "playbutttp" style = "border: none; width: 100; height: 50; border-radius: 0 10px 0 0 ;background-color: #0ce40c6b;">
+				Resume
+			</button>
+				<div id = "popupcontent69" class = "popup">
+					<div class = "popup-content">
+						<h1 style = "color: white; font-family: Consolas, Courier New, monospace;">
+							Launching Trepang²...
+						</h1>
+						<button style = "color: white; font-family: Consolas, Courier New, monospace; border: 0px solid black;background-color: transparent;" id = "canceltp">
+							Cancel
+						</button>
+					</div>
+				</div>
+
+		</td>
+	</table>
+		<p style = "color: white;" class = "unifont">
+			Your Games
+		</p>
+		<table class = "gametable" border = "4" cellspacing = "0">
+			<tr style = "width: 100%;">
+				<td>
+					<table style = "width: 900px; height: 235.5px; border-color: black; border-radius: 15px;" border = "1"  cellpadding = "0" cellspacing = "10">
+						<tr style = "width: 100%;">
+							<td class = "others" valign = "bottom" style = "width: 16%; background-image: url(images/penguin.png);"> 
+								<form method = "get" action = "games\penguin\penguin.html">
+									<input style = "border: 0px solid black; background-color: transparent;width: 100%; height: 175" value = "" type = "submit"/>
+								</form>
+								
+								<button id = "playbuttpen" style = "border: 0px solid black; background-color: transparent;">
+									<img style = "margin-left: -10px; margin-bottom: -1px;" src = images/play.png alt = "Install">
+								</button>
+								<div id = "popupcontent" class = "popup">
+									<div class = "popup-content">
+										<h1 style = "color: white; font-family: Consolas, Courier New, monospace;">
+											Launching The Greatest Penguin Heist Of All Time...
+										</h1>
+										<button style = "color: white; font-family: Consolas, Courier New, monospace; border: 0px solid black;background-color: transparent;" id = "cancel">
+											Cancel
+										</button>
+									</div>
+								</div>
+							</td>
+							<td class = "others" valign = "bottom" style = "width: 16%; background-image: url(images/pd3.png);"> 
+								<form method = "get" action = "games\payday3\payday3.html">
+									<input style = "border: 0px solid black; background-color: transparent;width: 100%; height: 175" value = "" type = "submit"/>
+								</form>
+								<button id = "playpd3" style = "border: 0px solid black;background-color: transparent;">
+									<img style = "margin-left: -10px; margin-bottom: -1px;" src = images/play.png alt = "Install">
+								</button>
+									<div id = "popupcontent2" class = "popup">
+										<div class = "popup-content">
+											<h1 style = "color: white; font-family: Consolas, Courier New, monospace; border: 0px solid black;background-color: transparent;">
+												Launching Payday 3...
+											</h1>
+											<button style = "color: white; font-family: Consolas, Courier New, monospace; border: 0px solid black;background-color: transparent;" id = "cancelpd3">
+												Cancel
+											</button>
+										</div>
+									</div>
+								</td>
+								<td class = "others" valign = "bottom" style = "width: 16%; background-image: url(images/doom.png);"> 
+									<form method = "get" action = "games\doom\doom.html">
+										<input style = "border: 0px solid black; background-color: transparent;width: 100%; height: 175" value = "" type = "submit"/>
+									</form>
+									<button id = "playdoom" style = "border: 0px solid black;background-color: transparent;">
+										<img style = "margin-left: -10px; margin-bottom: -1px;" src = images/play.png alt = "Install">
+									</button>
+									<div id = "popupcontent3" class = "popup">
+										<div class = "popup-content">
+											<h1 style = "color: white; font-family: Consolas, Courier New, monospace; border: 0px solid black;background-color: transparent;">
+												Launching DOOM...
+											</h1>
+											<button style = "color: white; font-family: Consolas, Courier New, monospace; border: 0px solid black;background-color: transparent;" id = "canceld">
+												Cancel
+											</button>
+										</div>
+									</div>
+								</td>
+								<td class = "others" valign = "bottom" style = "width: 16%; background-image: url(images/cs1.6.png);"> 
+									<button id = "incs" style = "border: 0px solid black;background-color: transparent;">
+										<img style = "margin-left: -10px; margin-bottom: -1px;" src = images/dl.png alt = "Install">
+									</button>
+									<div id = "popupcontent4" class = "popup">
+										<div class = "popup-content">
+											<h1 style = "width: 200px; color: white; font-family: Consolas, Courier New, monospace">
+												Install Counter-Strike 1.6?
+											</h1>
+											<button style = "width: 200px; height: 20px; color: white; font-family: Consolas, Courier New, monospace; border: 0px solid black;background-color: transparent" id = "yescs">
+												Alright, lets go.
+											</button>
+											<button style = "width: 200px; height: 20px; color: white; font-family: Consolas, Courier New, monospace; border: 0px solid black;background-color: transparent" id = "cancelcs">
+												On second thought...
+											</button>
+										</div>
+									</div>
+								</td>
+								<td class = "others" valign = "bottom" style = "width: 16%; background-image: url(images/pd2.png);"> 
+									<button id = "inpd2" style = "border: 0px solid black;background-color: transparent;">
+										<img style = "margin-left: -10px; margin-bottom: -1px;" src = images/dl.png alt = "Install">
+									</button>
+									<div id = "popupcontent5" class = "popup">
+										<div class = "popup-content">
+											<h1 style = "width: 200px; color: white; font-family: Consolas, Courier New, monospace; border: 0px solid black;background-color: transparent" class = "memefont">
+												Install Payday 2?
+											</h1>
+											<button style = "width: 220px; height: 20px; color: white; font-family: Consolas, Courier New, monospace; border: 0px solid black;background-color: transparent" id = "yespd2">
+												Yes
+											</button>
+											<button style = "width: 220px; height: 20px; color: white; font-family: Consolas, Courier New, monospace; border: 0px solid black;background-color: transparent" id = "cancelpd2">
+												On second thought...
+											</button>
+										</div>
+									</div>
+								</td>
+							</tr> 
+						</table>
+					</td>
+				</tr>
+			</table>
+			<br/>
+		</div>
+
+			<!--FOOTER-->
+			<div class="footer">
+				<ul class="footerlist">
+					<li class="footerobject">
+						<a href="#" class="footerlink">Home</a>
+					</li>
+					<li class="footerobject">
+						<a href="#" class="footerlink">Store</a>
+					</li>
+					<li class="footerobject">
+						<a href="#" class="footerlink">Library</a>
+					</li>
+					<li class="footerobject">
+						<a href="#" class="footerlink">Account</a>
+					</li>
+					<li class="footerobject">
+						<a href="#" class="footerlink">Contact Us</a>
+					</li>
+					<li class="footerobject">
+						<a href="#" class="footerlink">About Us</a>
+					</li>
+				</ul>
+				<figure>
+					<img src="../images/Vapor.png" height="80px" class="footerlogo"/>
+					<figcaption>Copyright&copy no one lol</figcaption>
+				</figure>
+			</div>
+
+        <script src = "scripts/popup.js">
+		</script>
+    </body>
+</html>
